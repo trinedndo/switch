@@ -119,8 +119,8 @@ router.post("/auth", (req, res) => {
     }
 
     if (code === 1) {
-        res.cookie('refreshToken', __token__, { maxAge: 30 * 24 * 60 * 60 * 1000, httpOnly: true })
-        res.cookie('accessToken', __access_token__, { maxAge: 30 * 24 * 60 * 60 * 1000 })
+        res.cookie('refreshToken', __token__, { maxAge: 30 * 24 * 60 * 60 * 1000, httpOnly: true, sameSite: 'none', secure: true })
+        res.cookie('accessToken', __access_token__, { maxAge: 30 * 24 * 60 * 60 * 1000, sameSite: 'none', secure: true })
         return res.json({ "code": 1 })
     }
     res.json({ "code": code })
