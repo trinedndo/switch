@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
     credentials: true,
-    origin: "http://localhost:3000"
+    origin: "https://isticcebnc.ru"
 }))
 
 // app.use(express.session({
@@ -18,6 +18,7 @@ app.use(cors({
 //     cookie: { domain: '.yourdomain.com' },
 //     store: new MongoStore(conf.sessiondb)
 // }));
+
 app.use("/api", router);
 
 const start = async () => {
