@@ -1,3 +1,5 @@
+import * as dotenv from 'dotenv'
+dotenv.config()
 import express from "express";
 import cors from "cors";
 import router from "./router.js";
@@ -10,14 +12,8 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
     credentials: true,
-    origin: "https://isticcebnc.ru"
+    origin: process.env.CLIENT_URL
 }))
-
-// app.use(express.session({
-//     secret: conf.secret,
-//     cookie: { domain: '.yourdomain.com' },
-//     store: new MongoStore(conf.sessiondb)
-// }));
 
 app.use("/api", router);
 
