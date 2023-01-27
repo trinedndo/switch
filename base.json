@@ -1,0 +1,83 @@
+[
+    {
+        "id": 0,
+        "title": "Festool Пылеудаляющий аппарат CTL midi I cleantec",
+        "brand": 101,
+        "category": 203,
+        "img": "",
+        "price": 48490,
+        "available": 3
+    },
+    {
+        "id": 1,
+        "title": "Перфоратор Festool BHC 18 Li-Basic-4,0",
+        "brand": 101,
+        "category": 201,
+        "img": "",
+        "price": 32990,
+        "available": 7
+    },
+    {
+        "id": 2,
+        "title": "Рубанок Festool EHL 65 EQ-Plus",
+        "brand": 101,
+        "category": 202,
+        "img": "",
+        "price": 41990,
+        "available": 1
+    },
+    {
+        "id": 3,
+        "title": "Аккумуляторная дрель-шуруповёрт BOSCH GSR 12V-35",
+        "brand": 102,
+        "category": 204,
+        "img": "",
+        "price": 11990,
+        "available": 4
+    },
+    {
+        "id": 4,
+        "title": "Аккумуляторный лобзик Bosch GST 12V-70 ",
+        "brand": 102,
+        "category": 205,
+        "img": "",
+        "price": 12990,
+        "available": 2
+    },
+    {
+        "id": 5,
+        "title": "Аккумуляторный рубанок Bosch GHO 12V-20",
+        "brand": 102,
+        "category": 202,
+        "img": "",
+        "price": 22490,
+        "available": 17
+    },
+    {
+        "id": 6,
+        "title": "Тележка на двух колёсах milwaukee packout",
+        "brand": 103,
+        "category": 206,
+        "img": "",
+        "price": 23490,
+        "available": 15
+    },
+    {
+        "id": 7,
+        "title": "Ящик с 2-мя выдвижными отсеками milwaukee packout",
+        "brand": 103,
+        "category": 207,
+        "img": "",
+        "price": 18990,
+        "available": 4
+    },
+    {
+        "id": 8,
+        "title": "Ящик с 3-мя выдвижными отсеками Milwaukee packout",
+        "brand": 103,
+        "category": 207,
+        "img": "",
+        "price": 20990,
+        "available": 13
+    }
+]
